@@ -8,7 +8,7 @@ const HeroLeft = () => {
         <img src={HeroImg} alt="" />
       </header>
       <div className=" flex justify-between gap-12 items-center">
-        <div className=" text-4xl font-bold">
+        <div className=" text-5xl font-bold">
           {" "}
           The Bright Future of Web 3.0?
         </div>
@@ -19,7 +19,10 @@ const HeroLeft = () => {
             ipsam placeat exercitationem adipisci omnis reiciendis consequatur
             recusandae aspernatur magnam quos illo!
           </p>
-          <button className="mt-5 p-3 bg-yellow-500"> READ MORE</button>
+          <button className="mt-5 p-3 px-5 text-white bg-red-500">
+            {" "}
+            READ MORE
+          </button>
         </div>
       </div>
     </main>
