@@ -3,7 +3,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div className="flex justify-between p-10">
-      <h2 className="text-xl">W</h2>
+      <h2 className="text-4xl">W.</h2>
       <ul className="flex justify-between gap-36">
         <li>Home</li>
         <li>New</li>
