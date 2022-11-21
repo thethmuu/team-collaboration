@@ -1,5 +1,15 @@
+import Articles from "./components/Articles";
+import HeroSection from "./components/HeroSection";
+import Navbar from "./components/Navbar";
+
 const App = () => {
-  return <div className='bg-blue-500 text-gray-300'>App</div>;
+  return (
+    <>
+      <Navbar />
+      <HeroSection />
+      <Articles />
+    </>
+  );
 };
 
 export default App;
